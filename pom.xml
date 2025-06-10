@@ -13,7 +13,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <!-- Plugin versions -->
     <version.liberty-maven-plugin>3.7.1</version.liberty-maven-plugin>
     <version.maven-failsafe-plugin>3.0.0</version.maven-failsafe-plugin>
@@ -29,7 +30,7 @@
     <dependency>
       <groupId>org.eclipse.microprofile</groupId>
       <artifactId>microprofile</artifactId>
-      <version>6.0</version>
+      <version>5.0</version>
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
